@@ -1,0 +1,20 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<div class="container topo" style="padding-bottom: 50px">
+  <h3>Curadores do projeto</h3>
+  <p>Os curadores são convidados pela equipe do Volt Data Lab e são responsáveis por para acrescentar projetos que considerem representativos para o jornalismo de dados no Brasil. Apesar de haver limitada moderação do Volt, principalmente para manter a unidade estética e conceitual do projeto, não há controle por parte do mantenedor, tendo o curador ou curadora total autonomia sobre o que publicar.</p>
+  <hr />
+  {% for row in curadores %}
+<div class="row">
+    <div class="col-lg-10">
+      <blockquote> <h4 style="vertical-align: middle;"><span class="terminal">></span> {{ row.nome }} | <a href="{{ row.link }}" target="_blank">{{ row.empresa }}</a> | <a href="https://twitter.com/{{ row.twitter }}" target="_blank"><i class="fab fa-twitter-square"></i></a> </h4>
+      <p>{{ row.desc }}</p>
+    </blockquote>
+    </div>
+  </div>
+
+  {% endfor %}
+</div>
+
+{% endblock content %}

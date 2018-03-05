@@ -1,0 +1,61 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    {# Marca e toggle ficam agrupados para mobile #}
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Toggle navegação</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><i class="fas fa-hashtag"></i> {{ title }}</a>
+    </div>
+
+    {# Collect the nav links, forms, and other content for toggling #}
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="curadores.html">Curadores da lista</a></li>
+      </ul>
+
+      <form class="navbar-form navbar-right" style="border:0px solid #ccc;padding:3px;text-align:left;" action="https://tinyletter.com/ddjbrasil" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/ddjbrasil', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <div class="form-group">
+          <input class="form-control" type="text" style="width:100%" name="email" id="tlemail" placeholder="Assine a newsletter" style="display:inline-block;vertical-align: middle;" />
+        </div>
+        <input class="form-control" type="hidden" value="1" name="embed"/>
+        <input style="background-color:#777;color:#f4f4f4;display:inline-block;vertical-align: middle;" type="submit" value="Assinar" class="btn btn-default" />
+      </form>
+
+      <ul class="social-menu nav navbar-nav navbar-right">
+          {% if opengraph_description and opengraph_image %}
+          <li>
+              <a target="_blank" href="https://www.facebook.com/sharer.php?u={{ ROOT_URL }}/{{ PATH }}&t={{ title|urlencode }}">
+                  <i class="icon-white icon-facebook-sign"></i> <span class="hidden">Facebook</span>
+              </a>
+          </li>
+          {% endif %}
+          {% if twitter_description %}
+          <li>
+              <a target="_blank" href="https://twitter.com/share?url={{ ROOT_URL }}/{{ PATH }}&text={{ twitter_description|urlencode }}">
+                  <i class="icon-white icon-twitter-sign"></i> <span class="hidden">Twitter</span>
+              </a>
+          </li>
+          {% endif %}
+          {% if opengraph_description and opengraph_image %}
+          <li>
+              <a target="_blank" href="https://plus.google.com/share?url={{ ROOT_URL }}/{{ PATH }}">
+                  <i class="icon-white icon-google-plus-sign"></i> <span class="hidden">Google+</span>
+              </a>
+          </li>
+          {% endif %}
+          {% if opengraph_description and opengraph_image %}
+          <li>
+              <a target="_blank" href="http://pinterest.com/pin/create/button/?url={{ ROOT_URL }}/{{ PATH }}&media={{ opengraph_image }}&description={{ opengraph_description|urlencode }}" class="pin-it-button" count-layout="horizontal">
+                  <i class="icon-white icon-pinterest-sign"></i> <span class="hidden">Pinterest</span>
+              </a>
+          </li>
+          {% endif %}
+      </ul>
+
+    </div>{# /.navbar-collapse #}
+  </div>
+</nav>

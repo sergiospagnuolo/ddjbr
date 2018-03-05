@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Mukta+Malar:400,700|Open+Sans:300,400,700|Roboto+Mono:400,700');
+
+body {
+  padding-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+.social-menu>li>a {
+  font-size: 24px;
+  padding: 11px 0;
+}
+
+.topo {
+  margin: 50px auto 0 !important;
+  max-width: 900px;
+}
+
+.jumbotron {
+  background-color: #fff;
+  color: #888;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.divisoria{
+  border-bottom: 2px solid #807279;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  vertical-align: middle;
+  display:inline-block;
+}
+
+.edicao{
+  font-family:'Roboto Mono', sans-serif;
+  padding: 5px 8px;
+  background-color:#386cb0;
+  color: #fff;
+  border-radius: 5px;
+  display:inline;
+  font-size: 1.2em;
+  float: right;
+  margin: 0 0 20px;
+}
+
+a {
+  color: #386cb0
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #807279
+}
+
+a:active{
+  text-decoration: underline;
+  color: #807279
+}
+
+hr{
+  border-color: #777
+}
+
+h1,
+h2 {
+  font-family: 'Mukta Malar', sans-serif;
+  font-weight: 700
+}
+
+h3 {
+  font-family: 'Mukta Malar', sans-serif;
+  font-weight: 400;
+  line-height: 1em
+}
+h4 {
+  font-family: 'Mukta Malar', sans-serif;
+  font-weight: 400;
+}
+
+h5,
+h6 {
+  font-family: 'Roboto Mono', sans-serif;
+  font-weight: 400;
+  line-height: 1.5em
+}
+
+blockquote {
+  margin: 0 2% 2% 0;
+  padding: 0 20px;
+  border-left: 0px solid #807279;
+  font-size: .9em;
+}
+
+.terminal {
+  font-weight: 700;
+  font-family: 'Roboto Mono';
+  font-size: 1.5em;
+  color: #807279;
+  position: relative;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.terminal::after {
+  content: "_";
+  position: absolute;
+  top: 0;
+  right: -5px;
+  /* Remove display: inline-block if not required to be on the same line as text etc */
+  display: inline-block;
+  vertical-align: top;
+  width: 10px;
+  /* Set height to the line height of .text */
+  height: 24px;
+  /*
+  Animation paramaters:
+  blink = animation-name,
+  1s = animation-duration,
+  step-end = animation-timing-function,
+  infinite = animation-iteration-count
+  */
+  -webkit-animation: blink 1s step-end infinite;
+  animation: blink 1s step-end infinite;
+}
+
+.mainterminal {
+  color: #888
+}
+
+.mainterminal::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -5px;
+  /* Remove display: inline-block if not required to be on the same line as text etc */
+  display: inline-block;
+  vertical-align: middle;
+  background-color: #cbcbcb;
+  width: 20px;
+  /* Set height to the line height of .text */
+  height: 38px;
+  /*
+  Animation paramaters:
+  blink = animation-name,
+  1s = animation-duration,
+  step-end = animation-timing-function,
+  infinite = animation-iteration-count
+  */
+  -webkit-animation: blink 1s step-end infinite;
+  animation: blink 1s step-end infinite;
+  position: relative;
+  display: inline-block;
+}
+
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}

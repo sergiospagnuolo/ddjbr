@@ -5,7 +5,7 @@ Tarbell project configuration
 """
 
 # Google spreadsheet key
-#SPREADSHEET_KEY = "None"
+SPREADSHEET_KEY = "1RfZNR3y5STRHprUCYt9tcn5mNPZTsK0Iats_IxTn8IQ"
 
 # Exclude these files from publication
 EXCLUDES = ["*.md", "requirements.txt"]
@@ -17,7 +17,7 @@ EXCLUDES = ["*.md", "requirements.txt"]
 # CREATE_JSON = True
 
 # Get context from a local file or URL. This file can be a CSV or Excel
-# spreadsheet file. Relative, absolute, and remote (http/https) paths can be 
+# spreadsheet file. Relative, absolute, and remote (http/https) paths can be
 # used.
 # CONTEXT_SOURCE_FILE = ""
 
@@ -32,9 +32,10 @@ S3_BUCKETS = {
     # Provide target -> s3 url pairs, such as:
     #     "mytarget": "mys3url.bucket.url/some/path"
     # then use tarbell publish mytarget to publish to it
-    
-    "production": "production.volt-tarbell/ddjbr",
-    "staging": "staging.volt-tarbell/ddjbr",
+
+    "production": "ddjbr",
+    "staging": "volttarbell",
+    "arquivotarbell": "arquivotarbell",
 }
 
 # Default template variables

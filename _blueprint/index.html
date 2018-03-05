@@ -1,0 +1,15 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<div class="container">
+  <div class="jumbotron">
+    <h1>DDJBR</h1>
+    <p>Reportagens, especiais, projetos: só os melhores links sobre o que foi publicado por aí no contexto de jornalismo orientado por dados no Brasil.</p>
+    <p>Você pode <a href="_example.html">sugerir</a> reportagens ou, se quiser, aplicar para ser um de nossos curadores. Veja nossa <a href="_example.html">lista de curadores</a> e <a href="https://tinyletter.com/ddjbr" target="_blank">assine a newsletter</a> gratuita.</p>
+  </div>
+
+  {% block lista %}
+    {% include "_lista.html" %}
+  {% endblock lista %}
+</div>
+{% endblock content %}

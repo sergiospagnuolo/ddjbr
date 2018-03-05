@@ -1,0 +1,18 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<div class="container">
+  <div class="jumbotron">
+    <h1>> DDJBR: <span class="mainterminal" style="color:#888;margin-right:10px;font-size:1em"></span></h1>
+    <p>Reportagens, especiais, projetos: só os melhores links sobre o que foi publicado por aí no contexto de jornalismo orientado por dados no Brasil.</p>
+    <p>Sugira reportagens para o DDJBR pelo Twitter <strong><a href="_example.html">@voltdatalab</a></strong>. Saiba quem são os <strong><a href="_example.html">curadores</a></strong> desta lista e <strong><a href="https://tinyletter.com/ddjbrasil" target="_blank">assine a newsletter</a></strong> gratuita para receber esses links em seu inbox de vez em quando.</p>
+    <hr style="height:6px;background-color: #807279" />
+    {% if edicao %}
+    <h2 class="edicao">Edição: #{{ edicao }}</h2>
+    {% endif %}
+  </div>
+  {% block lista %}
+    {% include "lista.html" %}
+  {% endblock lista %}
+</div>
+{% endblock content %}
