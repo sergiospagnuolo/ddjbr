@@ -1,0 +1,20 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<div class="container topo" style="padding-bottom: 50px">
+  <h3>Links úteis</h3>
+  <p>Nesta seção, você vai encontrar links permamentes de alguns projetos mais perenes de jornalismo de dados, que não são necessariamente editoriais, mas pode ajudar jornalistas a obter ferramentas, informações e conhecimento.</p>
+  <hr />
+  {% for row in links %}
+<div class="row">
+    <div class="col-lg-10">
+    <ul>
+      <li><span style="font-size:1.2em;"><a href="{{ row.link }}" target="_blank">{{ row.projeto }}</a></span>: {{ row.desc }}</li>
+    </ul>
+  </div>
+  </div>
+
+  {% endfor %}
+</div>
+
+{% endblock content %}

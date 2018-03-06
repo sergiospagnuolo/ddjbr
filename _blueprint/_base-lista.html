@@ -4,12 +4,12 @@
   <title>{% block title %}{{ title|striptags }}{% endblock title %}</title>
 
   {% block favicon %}
-  <link rel="shortcut icon" href="/favicon{% if preview_mode %}-preview{% endif %}.ico" />
+  <link rel="shortcut icon" href="favicon.ico" />
   {% endblock %}
 
   {% block library_css %}
   <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="css/base.css"/>
+  <link rel="stylesheet" type="text/css" href="base.css"/>
   {% endblock library_css %}
 
   {% block css %}{% endblock %}
@@ -21,10 +21,12 @@
   {% endblock %}
 
   {% block opengraph %}
-  <meta property="og:url" content="http://{{ ROOT_URL }}/{% if PATH != 'index.html' %}{{ PATH }}{% endif %}" />
+  <meta property="og:url" content="http://ddj.jor.br/" />
   <meta property="og:title" content="{{ title }}" />
   <meta property="og:type" content="website" />
-  <meta property="og:image" content="{{ opengraph_image }}" />
+  <meta property="og:image:width" content="805" />
+  <meta property="og:image:height" content="471" />
+  <meta property="og:image" content="http://ddj.jor.br/socialpic.jpeg" />
   <meta property="og:description" content="{{ opengraph_description }}" />
   {% endblock opengraph %}
 
@@ -49,6 +51,15 @@
     })();
 
   </script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-115172627-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', '{{ GOOGLE_ANALYTICS_ID }}');
+</script>
   {% endif %}
   {% endblock google_analytics %}
 </head>

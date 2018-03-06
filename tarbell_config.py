@@ -14,7 +14,7 @@ EXCLUDES = ["*.md", "requirements.txt"]
 # SPREADSHEET_CACHE_TTL = 4
 
 # Create JSON data at ./data.json, disabled by default
-# CREATE_JSON = True
+CREATE_JSON = True
 
 # Get context from a local file or URL. This file can be a CSV or Excel
 # spreadsheet file. Relative, absolute, and remote (http/https) paths can be
@@ -33,9 +33,9 @@ S3_BUCKETS = {
     #     "mytarget": "mys3url.bucket.url/some/path"
     # then use tarbell publish mytarget to publish to it
 
-    "production": "ddjbr",
-    "staging": "volttarbell",
-    "arquivotarbell": "arquivotarbell",
+    "production": "ddj.jor.br",
+    "staging": "ddjbr",
+    "arquivotarbell": "ddj.jor.br",
 }
 
 # Default template variables

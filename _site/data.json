@@ -1,1 +1,216 @@
-{}
+{
+  "curadores": [
+    {
+      "desc": "S\u00e9rgio Spagnuolo \u00e9 jornalista, fundador e editor da ag\u00eancia de jornalismo de dados Volt Data Lab, al\u00e9m de mestre em Rela\u00e7\u00f5es Internacionais e Direitos Humanos pela PUC-SP e colaborador do site de checagem Aos Fatos. Paulistano n\u00e3o praticante, divide seu tempo entre S\u00e3o Paulo, Curitiba e Rio de Janeiro. Em 2016, foi fellow do Tow-Knight Center for Entrepreneurial Journalism, um programa de empreendedorismo para jornalistas, em Nova York. J\u00e1 atuou pelas as ag\u00eancias Reuters e Mergermarket, publicou nas revistas Am\u00e9ricaEconomia, \u00c9poca Neg\u00f3cios Isto\u00c9 Dinheiro e Capital Aberto, entre outras, e colaborou com os portais piau\u00ed, Yahoo News, Jota Estadao.com, UOL e \u00daltimo Segundo. Tamb\u00e9m trabalhou no Programa das Na\u00e7\u00f5es Unidas para o Desenvolvimento (PNUD), como oficial de comunica\u00e7\u00e3o do Centro Mundial para o Desenvolvimento Sustent\u00e1vel (Centro RIO+).", 
+      "empresa": "Volt Data Lab", 
+      "link": "www.voltdata.info", 
+      "nome": "S\u00e9rgio Spagnuolo", 
+      "twitter": "sergiospagnuolo"
+    }, 
+    {
+      "desc": "Renata \u00e9 graduada em Jornalismo e atualmente cursa Estat\u00edstica na Universidade de S\u00e3o Paulo. J\u00e1 viveu na Espanha, Portugal e EUA, escrevendo para ag\u00eancias de not\u00edcias e revistas de viagem. No Volt, une seu of\u00edcio antigo \u00e0 nova empreitada no universo dos dados. Ap\u00f3s ter sido selecionada para nosso programa de bolsas em setembro de 2017, agora atua como colaboradora regular da ag\u00eancia, especialmente em an\u00e1lise e organiza\u00e7\u00e3o de dados.", 
+      "empresa": "Volt Data Lab", 
+      "link": "www.voltdata.info", 
+      "nome": "Renata Hirota", 
+      "twitter": "renata_mh"
+    }, 
+    {
+      "desc": "Especialista em planejamento e estrutura\u00e7\u00e3o de tecnologias, recursos e outras capacidades adequadas aos projetos. Tamb\u00e9m atua como consultor independente, especialista em processos e sistemas de gest\u00e3o empresarial com foco na estrutura\u00e7\u00e3o de bancos de dados, h\u00e1 15 anos em diversas \u00e1reas da TI, passando por infraestrutura, gest\u00e3o de projetos (PMO) e implementa\u00e7\u00e3o de sistemas empresariais (do cabo ao c\u00f3digo, literalmente). Paulistano radicado em Santa Catarina, programador autodidata (uma rela\u00e7\u00e3o de amor e \u00f3dio com c\u00f3digos), fissurado por ci\u00eancia, tecnologia e, claro, dados. No Volt, \u00e9 o cara por tr\u00e1s das capacidades tecnl\u00f3gicas da ag\u00eancia. ", 
+      "empresa": "Volt Data Lab", 
+      "link": "www.voltdata.info", 
+      "nome": "Felippe Mercurio", 
+      "twitter": "ztock"
+    }, 
+    {
+      "desc": "Gabriela Caesar \u00e9 jornalista formada pela PUC-Rio e aspirante a cientista de dados. Atualmente, trabalha na equipe de dados do G1. Estuda Python nas horas vagas por acreditar que a tecnologia tem potencial para ajudar o jornalismo. Em agosto de 2017, lan\u00e7ou o site Plen\u00e1rio [www.projetoplenario.com], que mostra como os senadores votaram em proposi\u00e7\u00f5es de relev\u00e2ncia nacional.", 
+      "empresa": "G1 ", 
+      "link": "www.gabrielacaesar.com", 
+      "nome": "Gabriela Caesar", 
+      "twitter": "gabrielacaesar"
+    }
+  ], 
+  "edicao": "1, mar\u00e7o 2018", 
+  "headline": "DDJBR", 
+  "listaddj": [
+    {
+      "data": "03/03/2018", 
+      "desc": "O Governo Temer n\u00e3o atualiza diversas informa\u00e7\u00f5es do Portal da Transpar\u00eancia h\u00e1 pelo menos quatro meses. Lan\u00e7ado pela Controladoria Geral da Uni\u00e3o (CGU) em 2004 \"para assegurar a boa e correta aplica\u00e7\u00e3o dos recursos p\u00fablicos\", o portal disponibiliza dados como gastos do Governo com programas, como o Bolsa Fam\u00edlia, transfer\u00eancias de recursos para os Estados e Munic\u00edpios, gastos diretos do Governo e remunera\u00e7\u00e3o de todos os servidores.", 
+      "headline": "Portal de Transpar\u00eancia do Governo n\u00e3o atualiza dados desde novembro", 
+      "input_por": "S\u00e9rgio Spagnuolo", 
+      "link": "https://brasil.elpais.com/brasil/2018/03/02/politica/1520016131_284875.html", 
+      "reporteres": "Marina Rossi", 
+      "tag": "dads abertos", 
+      "veiculo": "El Pa\u00eds"
+    }, 
+    {
+      "data": "25/02/2018", 
+      "desc": "Especial revela mudan\u00e7as no perfil deste crime nos \u00faltimos 10 anos na regi\u00e3o metropolitana de S\u00e3o Paulo. Role a tela para ler a reportagem ou explore o mapa para conferir a situa\u00e7\u00e3o em um local de seu interesse.", 
+      "headline": "Em queda, roubos de carros migram para a periferia", 
+      "input_por": "S\u00e9rgio Spagnuolo", 
+      "link": "http://infograficos.estadao.com.br/cidades/roubos-de-carros-grande-sao-paulo/", 
+      "reporteres": "Bruno Ribeiro e Marco Ant\u00f4nio Carvalho (Reportagem), Carlos Marin e Stefano Wrobleski (Tratamento de dados),  Ariel Tonglet (Design e desenvolvimento)", 
+      "tag": "seguran\u00e7a", 
+      "veiculo": "O Estado de S.Paulo"
+    }, 
+    {
+      "data": "24/02/2018", 
+      "desc": "At\u00e9 agora, desfile da Tuiuti teve 26% mais repercuss\u00e3o do que a\u00e7\u00e3o militar no Rio; interven\u00e7\u00e3o faz diminuir polariza\u00e7\u00e3o Lula-Bolsonaro nas redes", 
+      "headline": "No Twitter, vampiro cola mais em Temer do que interven\u00e7\u00e3o", 
+      "input_por": "S\u00e9rgio Spagnuolo", 
+      "link": "http://piaui.folha.uol.com.br/c/tes/", 
+      "reporteres": "Fabio Malini", 
+      "tag": "redes-sociais", 
+      "veiculo": "Revista piau\u00ed"
+    }, 
+    {
+      "data": "23/02/2018", 
+      "desc": "Brasil j\u00e1 teve at\u00e9 13 atletas participando dos jogos de inverno. No geral, medalhas se concentram entre pa\u00edses europeus. Veja em gr\u00e1ficos:", 
+      "headline": "Os atletas brasileiros nas Olimp\u00edadas de Inverno e a origem dos medalhistas", 
+      "input_por": "S\u00e9rgio Spagnuolo", 
+      "link": "https://www.nexojornal.com.br/grafico/2018/02/23/Os-atletas-brasileiros-nas-Olimp%C3%ADadas-de-Inverno-e-a-origem-dos-medalhistas", 
+      "reporteres": "Rodolfo Almeida e Gabriel Zanlorenssi", 
+      "tag": "esportes", 
+      "veiculo": "Nexo"
+    }, 
+    {
+      "data": "23/02/2018", 
+      "desc": "Uma medida adotada pelo governo do Rio na d\u00e9cada de 1990 e acentuada ao longo dos anos levou a Pol\u00edcia Militar a um colapso em sua organiza\u00e7\u00e3o hier\u00e1rquica. Houve uma promo\u00e7\u00e3o desmedida de policiais ao posto de sargento e, na pr\u00e1tica, a patente passou a ter mais homens do que seus subordinados, os soldados.", 
+      "headline": "Ap\u00f3s promo\u00e7\u00f5es sem concurso, PM do Rio tem mais chefes que soldados", 
+      "input_por": "S\u00e9rgio Spagnuolo", 
+      "link": "https://www1.folha.uol.com.br/cotidiano/2018/02/apos-promocoes-sem-concurso-pm-do-rio-tem-mais-chefes-que-soldados.shtml?utm_source=facebook&utm_medium=social&utm_campaign=compfb", 
+      "reporteres": "Rog\u00e9rio Pagnan e Daniel Mariani", 
+      "tag": "seguran\u00e7a", 
+      "veiculo": "Folha de S.Paulo"
+    }, 
+    {
+      "data": "22/02/2018", 
+      "desc": "Conselho Nacional de Pol\u00edtica Criminal e Penitenci\u00e1ria recomenda que haja um agente para cada cinco presos nas unidades prisionais. Em 5 anos, pelo menos 594 agentes ficaram feridos nas pris\u00f5es; 9 morreram. Carcereiros reclamam da falta de investimentos e relatam rotina de medo.", 
+      "headline": "Brasil tem m\u00e9dia de 7 presos por agente penitenci\u00e1rio; 19 estados descumprem limite recomendado", 
+      "input_por": "S\u00e9rgio Spagnuolo", 
+      "link": "https://g1.globo.com/monitor-da-violencia/noticia/brasil-tem-media-de-7-presos-por-agente-penitenciario-19-estados-descumprem-limite-recomendado.ghtml?utm_source=facebook&utm_medium=social&utm_campaign=g1", 
+      "reporteres": "Clara Velasco e Gabriela Caesar", 
+      "tag": "seguran\u00e7a", 
+      "veiculo": "G1"
+    }, 
+    {
+      "data": "19/02/2018", 
+      "desc": "Aux\u00edlio-moradia, aux\u00edlio-alimenta\u00e7\u00e3o e aux\u00edlio-sa\u00fade n\u00e3o s\u00e3o os \u00fanicos itens a chamar a aten\u00e7\u00e3o nos contracheques dos ju\u00edzes brasileiros. Quase 7 mil deles receberam em dezembro um total de R$ 211 milh\u00f5es em pagamentos retroativos de benef\u00edcios e indeniza\u00e7\u00f5es \u2013 uma m\u00e9dia de R$ 30 mil por magistrado.", 
+      "headline": "Ju\u00edzes ganham R$ 211 milh\u00f5es com \u2018aux\u00edlios\u2019 atrasados", 
+      "input_por": "S\u00e9rgio Spagnuolo", 
+      "link": "http://politica.estadao.com.br/noticias/geral,juizes-ganham-r-211-mi-com-auxilios-atrasados,70002194402", 
+      "reporteres": "Daniel Bramatti, Cec\u00edlia do Lago e Marianna Holanda", 
+      "tag": "judici\u00e1rio", 
+      "veiculo": "O Estado de S.Paulo"
+    }, 
+    {
+      "data": "19/02/2018", 
+      "desc": "Estimativas feitas pelo Minist\u00e9rio das Rela\u00e7\u00f5es Exteriores indicam que mais de 1 milh\u00e3o de brasileiros vivem nos EUA. Veja em gr\u00e1ficos.", 
+      "headline": "Em que pa\u00edses vivem os brasileiros no exterior, segundo o Itamaraty", 
+      "input_por": "S\u00e9rgio Spagnuolo", 
+      "link": "https://www.nexojornal.com.br/grafico/2018/02/16/Em-que-pa%C3%ADses-vivem-os-brasileiros-no-exterior-segundo-o-Itamaraty", 
+      "reporteres": "Gabriel Zanlorenssi e Rodolfo Almeida", 
+      "tag": "rela\u00e7\u00f5es exteriores", 
+      "veiculo": "Nexo"
+    }, 
+    {
+      "data": "08/02/2018", 
+      "desc": "A Pol\u00edcia Federal apreendeu 4.525 kg de drogas nos aeroportos do Brasil em 2017 \u2013 o que equivale a cerca de 400 kg por m\u00eas. O volume \u00e9 quase o dobro do registrado no ano anterior, quando foram retidos 2.272 kg de drogas. Os dados foram obtidos pelo G1 por meio da Lei de Acesso \u00e0 Informa\u00e7\u00e3o.", 
+      "headline": "N\u00famero de apreens\u00f5es de drogas em aeroportos do Brasil dobra em 2017", 
+      "input_por": "S\u00e9rgio Spagnuolo", 
+      "link": "https://g1.globo.com/sp/sao-paulo/noticia/numero-de-apreensoes-de-drogas-em-aeroportos-do-brasil-dobra-em-2017.ghtml", 
+      "reporteres": "Gabriela Caesar", 
+      "tag": "drogas", 
+      "veiculo": "G1"
+    }, 
+    {
+      "data": "06/02/2018", 
+      "desc": "No momento em que a agenda da bancada ruralista ganha for\u00e7a, a Rep\u00f3rter Brasil criou uma ferramenta para medir o comportamento dos deputados federais eleitos em 2014 nesse setor.", 
+      "headline": "Rural\u00f4metro", 
+      "input_por": "S\u00e9rgio Spagnuolo", 
+      "link": "https://ruralometro.reporterbrasil.org.br/", 
+      "reporteres": "Ana Magalh\u00e3es, Guilherme Zocchio, Piero Locatelli, Reinaldo Chaves e Tha\u00eds Lazzeri (Reportagem), Reinaldo Chaves e Piero Locatelli (Tratamento de Dados), entre outros", 
+      "tag": "meio ambiente", 
+      "veiculo": "Rep\u00f3rter Brasil"
+    }, 
+    {
+      "data": "14/02/2018", 
+      "desc": "Dos 81 senadores eleitos nas elei\u00e7\u00f5es de 2010 e 2014, cinco renunciaram, tr\u00eas morreram, dois foram cassados e outros 25 chegaram a se afastar do mandato. Desde ent\u00e3o, 41 suplentes assumiram o cargo em algum momento da legislatura. Os dados s\u00e3o de um levantamento feito pelo G1.", 
+      "headline": "41 suplentes de senadores assumiram mandato em algum momento da legislatura", 
+      "input_por": "Gabriela Caesar", 
+      "link": "https://g1.globo.com/politica/noticia/41-suplentes-de-senadores-assumiram-mandato-em-algum-momento-da-legislatura.ghtml", 
+      "reporteres": "Gabriela Caesar", 
+      "tag": "pol\u00edtica", 
+      "veiculo": "G1"
+    }, 
+    {
+      "data": "25/02/2018", 
+      "desc": "Nas elei\u00e7\u00f5es de 2014 \u2013 as primeiras desde a onda de protestos que marcou o ano anterior \u2013, a taxa de absten\u00e7\u00e3o foi a mais alta desde 1998. Parte significativa desse fen\u00f4meno n\u00e3o teve rela\u00e7\u00e3o direta com revolta ou desencanto com a pol\u00edtica, mas com um processo natural: o envelhecimento do eleitorado. Esse fator ter\u00e1 um peso ainda maior na vota\u00e7\u00e3o deste ano.", 
+      "headline": "Envelhecimento do eleitorado explica 1/4 da absten\u00e7\u00e3o", 
+      "input_por": "Gabriela Caesar", 
+      "link": "http://politica.estadao.com.br/noticias/geral,envelhecimento-do-eleitorado-explica-14-da-abstencao,70002204016", 
+      "reporteres": "Daniel Bramatti", 
+      "tag": "elei\u00e7\u00f5es", 
+      "veiculo": "O Estado de S.Paulo"
+    }, 
+    {
+      "data": "19/01/2018", 
+      "desc": "\u00c9 de assustar a estat\u00edstica sobre filiados a partidos no pa\u00eds da antipol\u00edtica: somam quase 17 milh\u00f5es os brasileiros que MDB, PT, PSDB e cong\u00eaneres relatam \u00e0 Justi\u00e7a serem seus membros. O susto vem de esse n\u00famero, quando comparado ao eleitorado nacional, dar ao Brasil uma das maiores taxas de filia\u00e7\u00e3o partid\u00e1ria do mundo: 12%. \u00c9 duas vezes maior do que a italiana, cinco vezes a alem\u00e3, seis a francesa, dez a brit\u00e2nica. S\u00e3o dados assombrosos. E assombrados: mortos vivem \u00e0s pencas nos registros brasileiros.", 
+      "headline": "Entre o assombro e a assombra\u00e7\u00e3o", 
+      "input_por": "Gabriela Caesar", 
+      "link": "http://piaui.folha.uol.com.br/entre-o-assombro-e-a-assombracao/", 
+      "reporteres": "Jos\u00e9 Roberto Toledo", 
+      "tag": "elei\u00e7\u00f5es", 
+      "veiculo": "Revista piau\u00ed"
+    }, 
+    {
+      "data": "17/12/2017", 
+      "desc": "Folhas de pagamento entregues este m\u00eas ao Conselho Nacional de Justi\u00e7a (CNJ) por tribunais de todo o pa\u00eds mostram que, ao menos nas cortes estaduais, receber remunera\u00e7\u00f5es superiores ao teto constitucional \u00e9 regra, n\u00e3o exce\u00e7\u00e3o. Levantamento do N\u00facleo de Dados do GLOBO, com base nas informa\u00e7\u00f5es salariais divulgadas pela primeira vez pelo CNJ, aponta que, nos \u00faltimos meses, 71,4% dos magistrados dos Tribunais de Justi\u00e7a (TJs) dos 26 estados e do Distrito Federal somaram rendimentos superiores aos R$ 33.763 pagos aos ministros do Supremo Tribunal Federal (STF) \u2014 valor estabelecido como m\u00e1ximo pela Constitui\u00e7\u00e3o.", 
+      "headline": "Com extras, 71% dos ju\u00edzes do pa\u00eds recebem acima do teto de R$ 33 mil", 
+      "input_por": "Gabriela Caesar", 
+      "link": "https://oglobo.globo.com/brasil/com-extras-71-dos-juizes-do-pais-recebem-acima-do-teto-de-33-mil-22201981", 
+      "reporteres": "Marlen Couto", 
+      "tag": "judici\u00e1rio", 
+      "veiculo": "O Globo"
+    }, 
+    {
+      "data": "27/02/2018", 
+      "desc": "Para usar os avi\u00f5es da For\u00e7a A\u00e9rea as autoridades precisam respeitar algumas regras. As viagens devem se enquadrar em algum dos motivos previstos em um decreto de 2002, assinado pelo ent\u00e3o presidente Fernando Henrique Cardoso: servi\u00e7o, emerg\u00eancia m\u00e9dica ou seguran\u00e7a. Desde 2015, ap\u00f3s um decreto de Dilma Rousseff, apenas chefes de poderes podem ir para o local de resid\u00eancia em voo particular. Ministros n\u00e3o podem usar o avi\u00e3o da FAB para voltar para casa. Eles precisam embarcar em um voo comercial, com passagem paga pelo Minist\u00e9rio. Mas sem transpar\u00eancia e fiscaliza\u00e7\u00e3o, fica f\u00e1cil burlar as regras.", 
+      "headline": "Ministros usam avi\u00f5es da FAB no deslocamento para casa mesmo com decreto que pro\u00edbe benef\u00edcio", 
+      "input_por": "Gabriela Caesar", 
+      "link": "http://cbn.globoradio.globo.com/media/audio/163549/ministros-usam-avioes-da-fab-no-deslocamento-para-.htm", 
+      "reporteres": "Gabriela Echenique, Carolina Martins e Felipe Igreja", 
+      "tag": "pol\u00edtica", 
+      "veiculo": "CBN"
+    }, 
+    {
+      "data": "27/02/2018", 
+      "desc": "O estado de S\u00e3o Paulo registrou 40.876 pris\u00f5es em flagrante por tr\u00e1fico de drogas em 2017, apontam dados da Secretaria da Seguran\u00e7a P\u00fablica (SSP) obtidos com exclusividade pela GloboNews por meio da Lei de Acesso \u00e0 Informa\u00e7\u00e3o (LAI). O montante representa m\u00e9dia de uma pris\u00e3o em flagrante de suspeitos de tr\u00e1fico de drogas a cada 13 minutos.", 
+      "headline": "S\u00e3o Paulo teve uma pris\u00e3o em flagrante por tr\u00e1fico a cada 13 minutos em 2017", 
+      "input_por": "Gabriela Caesar", 
+      "link": "https://g1.globo.com/sp/sao-paulo/noticia/sao-paulo-teve-uma-prisao-em-flagrante-por-trafico-a-cada-13-minutos-em-2017-aponta-ssp.ghtml", 
+      "reporteres": "Adriana Perroni e L\u00e9o Arcoverde", 
+      "tag": "s\u00e3o paulo", 
+      "veiculo": "Globo News"
+    }, 
+    {
+      "data": "15/02/2018", 
+      "desc": "Quase 70% da popula\u00e7\u00e3o carcer\u00e1ria feminina do estado de S\u00e3o Paulo responde por tr\u00e1fico de drogas, de acordo com levantamento da Secretaria de Estado da Administra\u00e7\u00e3o Penitenci\u00e1ria (SAP-SP) obtido com exclusividade pela GloboNews por meio da Lei de Acesso \u00e0 Informa\u00e7\u00e3o. ", 
+      "headline": "Duas em cada 3 mulheres presas no estado de SP respondem por tr\u00e1fico de drogas", 
+      "input_por": "Gabriela Caesar", 
+      "link": "https://g1.globo.com/sp/sao-paulo/noticia/duas-em-cada-3-mulheres-presas-no-estado-de-sp-respondem-por-trafico-de-drogas.ghtml", 
+      "reporteres": "L\u00e9o Arcoverde e Isabela Leite", 
+      "tag": "s\u00e3o paulo", 
+      "veiculo": "Globo News"
+    }, 
+    {
+      "data": "22/02/2018", 
+      "desc": "Apesar do direito de contratar 18 funcion\u00e1rios em seu gabinete, a vereadora paulistana Noemi Nonato (PR) pagou R$ 65 mil em 2017 para manter um site com informa\u00e7\u00f5es de seu mandato. No in\u00edcio deste ano, por\u00e9m, a \u00faltima not\u00edcia publicada na p\u00e1gina era de 23 de agosto.", 
+      "headline": "Vereadores de S\u00e3o Paulo gastam verba com trof\u00e9us e site desatualizado", 
+      "input_por": "Gabriela Caesar", 
+      "link": "https://www1.folha.uol.com.br/cotidiano/2018/02/vereadores-de-sao-paulo-gastam-verba-com-trofeus-e-site-desatualizado.shtml", 
+      "reporteres": "Artur Rodrigues", 
+      "tag": "s\u00e3o paulo", 
+      "veiculo": "Folha de S.Paulo"
+    }
+  ]
+}
