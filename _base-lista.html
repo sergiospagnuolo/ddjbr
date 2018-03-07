@@ -1,72 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>{% block title %}{{ title|striptags }}{% endblock title %}</title>
+<title>{% block title %}{{ title|striptags }}{% endblock title %}</title>
 
-  {% block favicon %}
-  <link rel="shortcut icon" href="favicon.ico" />
-  {% endblock %}
+{% block favicon %}
+<link rel="shortcut icon" href="favicon.png" />
+{% endblock %}
 
-  {% block library_css %}
-  <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css" />
-  <link rel="stylesheet" type="text/css" href="base.css"/>
-  {% endblock library_css %}
+{% block library_css %}
+<link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="base.css"/>
+{% endblock library_css %}
 
-  {% block css %}{% endblock %}
+{% block css %}{% endblock %}
 
-  {% block shim %}
-  <!--[if lt IE 9]>
-  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  {% endblock %}
+{% block shim %}
+<!--[if lt IE 9]>
+<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+{% endblock %}
 
-  {% block opengraph %}
-  <meta property="og:url" content="http://ddj.jor.br/" />
-  <meta property="og:title" content="{{ title }}" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image:width" content="805" />
-  <meta property="og:image:height" content="471" />
-  <meta property="og:image" content="http://ddj.jor.br/socialpic.jpeg" />
-  <meta property="og:description" content="{{ opengraph_description }}" />
-  {% endblock opengraph %}
+{% block opengraph %}
+<meta property="og:url" content="http://ddj.jor.br/" />
+<meta property="og:title" content="{{ title }}" />
+<meta property="og:type" content="website" />
+<meta property="og:image:width" content="805" />
+<meta property="og:image:height" content="471" />
+<meta property="og:image" content="http://ddj.jor.br/socialpic.jpeg" />
+<meta property="og:description" content="{{ opengraph_description }}" />
+{% endblock opengraph %}
 
-  {% block meta %}
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-touch-fullscreen" content="yes">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  {% endblock meta %}
+{% block meta %}
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+{% endblock meta %}
 
-  {% block google_analytics %}
-  {% if GOOGLE_ANALYTICS_ID %}
-  <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', '{{ GOOGLE_ANALYTICS_ID }}']);
-    _gaq.push(['_trackPageview']);
-
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-
-  </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115172627-1"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
 
-  gtag('config', '{{ GOOGLE_ANALYTICS_ID }}');
+gtag('config', 'UA-115172627-1');
 </script>
-  {% endif %}
-  {% endblock google_analytics %}
 </head>
 <body {% block bodyattrs %}class="page-{{ PATH[:-5] }}"{% endblock bodyattrs %}>
 
 {% block nav %}
-  {% include "_nav.html" %}
+{% include "_nav.html" %}
 {% endblock nav %}
 
 {% block content %}{% endblock content %}
